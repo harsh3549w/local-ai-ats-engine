@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local databases & Vector storage
+chroma_db/
+
+# Environment configurations and secrets
+.env
+.env.*
+
+# Virtual Environments (in case you create one later)
+venv/
+env/
+.venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore PDF test resumes if you have a folder for them
+# so you don't accidentally leak candidate data
+test_resumes/
+*.pdf
