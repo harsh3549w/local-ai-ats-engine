@@ -1,8 +1,9 @@
 fastapi
 uvicorn
+python-multipart
 chromadb
 gliner
-PyPDF2
+pypdf
 sentence-transformers
 scikit-learn
 pydantic
